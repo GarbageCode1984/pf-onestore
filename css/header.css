@@ -1,0 +1,13 @@
+header .inner{
+    font-size: 19px;
+    height: 70px;
+    line-height: 3;
+}
+
+header div ul.gnb{
+    width: 400px;
+    height: 300px;
+}
+header div div.enb{
+    width: 110px;
+}

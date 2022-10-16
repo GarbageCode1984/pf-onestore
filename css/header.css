@@ -9,28 +9,68 @@ header .inner {
     position: fixed;
     width: 100%;
     height: 70px;
-    border-bottom: 1px solid #59564B;
+    /* border-bottom: 1px solid #59564b; */
+    transition-duration: 0.4s;
+}
+.top::after {
+    content: "";
+    width: 100%;
+    height: 70px;
+    display: block;
+    border-bottom: 1px solid #59564b;
 }
 
-header div ul.gnb {
+.top:hover {
+    background-color: #000;
+    opacity: 0.9;
+    height: 350px;
+}
+
+.top:hover .gnbsub {
+    display: inline-block;
+}
+.gnbsub {
+    display: none;
+    line-height: 2.2;
+    text-align: start;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.gnbsub li {
+    width: 100%;
+}
+
+.gnb {
     width: 400px;
     height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
 
+.nav_con {
+    width: 100%;
+}
+.nav_con:nth-child(2) {
+    padding-right: 20px;
+}
 .nav_con a {
-    color: #B7BABE;
+    display: inline-block;
+    width: 150px;
+    color: #b7babe;
+    text-align: start;
 }
 
 header .enb {
     width: 110px;
-    color: #B7BABE;
-
+    color: #b7babe;
 }
 
 .inner .logo {
     width: 171px;
     height: 31px;
-    margin: 18px 0 0 15px;
+    margin: 18px 0 0 40px;
 }
 
 .videoWrap {
@@ -53,7 +93,7 @@ header .enb {
 
 .mainVideo_text {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -71,7 +111,7 @@ header .enb {
     font-weight: 500;
     line-height: 1.2;
     padding-top: 30px;
-    color: #B7BABE;
+    color: #b7babe;
     font-size: 18px;
 }
 
@@ -81,9 +121,8 @@ header .enb {
     position: absolute;
     top: 75%;
     left: 60%;
-    color: #B7BABE;
+    color: #b7babe;
 }
-
 
 .section1 {
     width: 100%;

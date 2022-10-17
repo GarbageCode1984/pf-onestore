@@ -1,0 +1,135 @@
+/* section1 */
+.section1 {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+
+.contentWrap {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.contents1 {
+    border: 1px solid #fff;
+    width: 600px;
+    height: 100px;
+    margin: 50px 30px;
+    text-align: start;
+    padding-left: 15px;
+    padding-top: 30px;
+    background-color: #F8F9FA;
+    border-radius: 1rem;
+    box-shadow: none;
+}
+
+.contents1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.contents1 .ConText {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contents1 .ConTime {
+    font-size: 16px;
+    color: #bbb;
+    padding-top: 10px;
+}
+
+.newTab {
+    text-align: center;
+    position: relative;
+}
+
+.newTab:hover {
+    text-decoration: underline;
+}
+
+.newTab p {
+    color: #bbb;
+}
+
+.newTab img {
+    position: absolute;
+    top: 5%;
+    left: 52%;
+    width: 15px;
+    height: 15px;
+    opacity: 0.4;
+}
+
+
+/* section2 */
+.section2 {
+    width: 100%;
+    height: 2000px;
+    background-color: #fff;
+}
+
+.contentWrap2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.View {
+    display: inline-block;
+    width: 90%;
+    height: 350px;
+    margin-bottom: 100px;
+    box-shadow: none;
+    border-radius: 15px;
+    color: #fff;
+    text-align: left;
+}
+
+.ViewWrap {
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.contentWrap2 h1 {
+    font-size: 36px;
+    position: absolute;
+    top: 40%;
+    padding-left: 30px;
+
+}
+
+.contentWrap2 p {
+    position: absolute;
+    top: 55%;
+    padding-left: 30px;
+
+}
+
+
+.img1 {
+    background: url('/img/01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    background: url('/img/02.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    background: url('/img/03.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 {
+    background: url('/img/04.jpg');
+    background-size: cover;
+    background-position: center;
+}

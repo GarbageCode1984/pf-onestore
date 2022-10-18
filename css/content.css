@@ -67,7 +67,7 @@
 /* section2 */
 .section2 {
     width: 100%;
-    height: 2000px;
+    height: 1900px;
     background-color: #fff;
 }
 
@@ -132,4 +132,167 @@
     background: url('/img/04.jpg');
     background-size: cover;
     background-position: center;
+}
+
+
+/* section3 */
+.section3 {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.scrollBarWrap {
+    margin: 0 auto;
+    width: 90%;
+    height: 300px;
+}
+
+.scrollBarWrap h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+.sliderWrap {
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+}
+
+.sliderWrap a .con {
+    width: 400px;
+    height: 200px;
+    border-radius: 5% / 10%;
+}
+
+.sliderWrap .c1 {
+    background: url(/img/s1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c2 {
+    background: url(/img/s2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c3 {
+    background: url(/img/s3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c4 {
+    background: url(/img/s4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c5 {
+    background: url(/img/s5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c6 {
+    background: url(/img/s6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c7 {
+    background: url(/img/s7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c8 {
+    background: url(/img/s8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c9 {
+    background: url(/img/s9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c10 {
+    background: url(/img/s10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c11 {
+    background: url(/img/s11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c12 {
+    background: url(/img/s12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c13 {
+    background: url(/img/s13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c14 {
+    background: url(/img/s14.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c15 {
+    background: url(/img/s15.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sliderWrap .c16 {
+    background: url(/img/s16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Slick Settings */
+.slick-next {
+    position: absolute;
+    top: 35%;
+    right: -3%;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+}
+
+.slick-prev {
+    position: absolute;
+    top: 35%;
+    left: -4%;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+}
+
+.slick-next:before {
+    content: url(/img/arrow_black_01.svg);
+}
+
+.slick-prev:before {
+    content: url(/img/arrow_black_02.svg);
 }

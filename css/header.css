@@ -1,6 +1,7 @@
 header .inner {
     font-size: 19px;
     height: 70px;
+    width: 100%;
     line-height: 3.5;
     position: fixed;
 }
@@ -13,9 +14,9 @@ header .inner {
     position: fixed;
     width: 100%;
     height: 70px;
-    /* border-bottom: 1px solid #59564b; */
     transition-duration: 0.4s;
     z-index: 10;
+    text-align: center;
 }
 
 .top::after {
@@ -31,7 +32,6 @@ header .inner {
     opacity: 0.9;
     height: 350px;
 }
-
 
 .on {
     background-color: #000;
@@ -78,7 +78,7 @@ header .inner {
     text-align: start;
 }
 
-header .enb>* {
+header .enb > * {
     width: 110px;
     color: #b7babe;
 }

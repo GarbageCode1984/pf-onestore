@@ -1,23 +1,26 @@
-@media (hover: hover) {}
+@media (hover: hover) {
+}
 
 /* 타블렛 */
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width: 1023px) {
     .top {
         background-color: #000;
         opacity: 0.9;
     }
 
+    .menuUp {
+        height: 70px !important;
+    }
     .menuDown {
         height: 850px !important;
-
     }
 
     .menu {
         display: block;
         width: 40px;
         height: 40px;
-        background: url('/img/menu_01.svg') repeat;
+        background: url("/img/menu_01.svg") repeat;
         position: absolute;
         right: 0;
         top: 20%;
@@ -30,7 +33,7 @@
         display: block;
         width: 40px;
         height: 40px;
-        background: url('/img/menu_02.svg') repeat;
+        background: url("/img/menu_02.svg") repeat;
         position: absolute;
         right: 0;
         top: 20%;
@@ -91,4 +94,5 @@
 }
 
 /* 모바일 */
-@media screen and (max-width:767px) {}
+@media screen and (max-width: 767px) {
+}

@@ -5,6 +5,10 @@ header .inner {
     position: fixed;
 }
 
+.menu {
+    display: none;
+}
+
 .top {
     position: fixed;
     width: 100%;
@@ -28,11 +32,12 @@ header .inner {
     height: 350px;
 }
 
-/* .on {
+
+.on {
     background-color: #000;
     opacity: 0.9;
-    height: 350px
-} */
+    height: 70px;
+}
 
 .top:hover .gnbsub {
     display: inline-block;
@@ -73,7 +78,7 @@ header .inner {
     text-align: start;
 }
 
-header .enb {
+header .enb>* {
     width: 110px;
     color: #b7babe;
 }

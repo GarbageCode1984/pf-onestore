@@ -94,6 +94,11 @@
     position: relative;
 }
 
+.ViewWrap h1 img {
+    width: 25px;
+    height: 25px;
+}
+
 .contentWrap2 h1 {
     font-size: 36px;
     position: absolute;
@@ -135,10 +140,11 @@
 }
 
 
+
 /* section3 */
 .section3 {
     width: 100%;
-    height: 500px;
+    height: 300px;
     background-color: #fff;
     position: relative;
     margin: 0 auto;

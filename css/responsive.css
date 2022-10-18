@@ -1,5 +1,44 @@
+@media (hover: hover) {}
+
 /* 타블렛 */
+
 @media screen and (max-width:1023px) {
+    .top {
+        background-color: #000;
+        opacity: 0.9;
+    }
+
+    .menuDown {
+        height: 850px !important;
+
+    }
+
+    .menu {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url('/img/menu_01.svg') repeat;
+        position: absolute;
+        right: 0;
+        top: 20%;
+        text-align: right;
+        border: none;
+        outline: none;
+    }
+
+    .menuX {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url('/img/menu_02.svg') repeat;
+        position: absolute;
+        right: 0;
+        top: 20%;
+        text-align: right;
+        border: none;
+        outline: none;
+    }
+
     .gnb {
         display: none;
     }
@@ -31,6 +70,23 @@
     .mainVideo_text img {
         top: 67%;
         left: 62%;
+    }
+
+    /* section1 */
+
+    .contents1 .ConText {
+        padding-right: 15px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .contents1 .ConTime {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .newTab img {
+        left: 54.5%;
     }
 }
 

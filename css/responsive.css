@@ -366,3 +366,111 @@
         left: 20%;
     }
 }
+
+@media screen and (max-width: 390px) {
+    .top {
+        width: 390px;
+    }
+
+    .inner .logo {
+        margin: 18px 0 0 5px;
+    }
+
+    header .inner {
+        width: 390px;
+    }
+
+    .menu {
+        right: 20%;
+    }
+
+    .menuX {
+        right: 20%;
+    }
+
+    .mainVideo_text h2 {
+        font-size: 24px;
+    }
+
+    .mainVideo_text {
+        left: 40%;
+    }
+
+    .mainVideo_text img {
+        left: 66%;
+    }
+
+    .mainVideo {
+        width: 390px;
+        height: 350px;
+    }
+
+    .mainVideo video {
+        width: 390px;
+        height: 350px;
+    }
+
+    .videoWrap {
+        height: 300px;
+    }
+
+    .section1 {
+        padding: 0;
+        height: 500px;
+    }
+
+    .contents1 {
+        width: 250px;
+        margin-right: 100px;
+    }
+
+    .contentWrap {
+        height: 415px;
+    }
+
+    .newTab p {
+        position: absolute;
+        left: 30%;
+    }
+
+    .newTab img {
+        left: 50%;
+    }
+
+    .contentWrap2 {
+        width: 300px;
+        margin: 0 0 0 8px;
+    }
+
+    .contents1 .ConText {
+        line-height: 1.1;
+
+    }
+
+    .contentWrap2 h1 {
+        font-size: 20px;
+        width: 220px;
+    }
+
+    .contentWrap2 p {
+        width: 200px;
+        font-size: 12px;
+        line-height: 1.3;
+    }
+
+    .ViewWrap h1 img {
+        width: 15px;
+        height: 15px;
+        transform: translate(-44%, -7%);
+    }
+
+    .section2 {
+        height: 800px;
+    }
+
+    .scrollBarWrap h1 {
+        left: 40%;
+    }
+
+    .menuDown {}
+}

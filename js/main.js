@@ -33,7 +33,8 @@ $(function () {
             $('.gnb').show();
             $('.enb span').show();
             $('.mobile_p').show();
-            $('.gnbsub li').show();
+            // $('.gnbsub li').show();
+            $('.gnbsub').css('display', 'inline-block');
 
             clickMenuBtn = 1;
         } else {
@@ -45,7 +46,8 @@ $(function () {
             $('.gnb').hide();
             $('.enb span').hide();
             $('.mobile_p').hide();
-            $('.gnbsub li').hide();
+            // $('.gnbsub li').hide();
+            $('.gnbsub').css('display', 'none');
 
             clickMenuBtn = 0;
         }
@@ -60,6 +62,7 @@ $(function () {
                 $('.gnb').css('display', 'flex');
                 $('.enb span').css('display', 'flex');
                 $('.gnbsub > li').css('display', 'inline-block');
+                $('.gnbsub').css('display', 'none');
             }
             if ($('.top').has('menuDown')) {
                 // mobile -> pc로 넘어갈때 menuDown이 있으면 헤더부분 보이게

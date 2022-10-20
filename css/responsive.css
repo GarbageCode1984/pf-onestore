@@ -1,5 +1,4 @@
-@media (hover: hover) {
-}
+@media (hover: hover) {}
 
 /* 타블렛 */
 
@@ -7,11 +6,13 @@
     .top {
         background-color: #000;
         opacity: 0.9;
+        position: fixed;
     }
 
     .menuUp {
         height: 70px !important;
     }
+
     .menuDown {
         height: 850px !important;
     }
@@ -22,11 +23,12 @@
         height: 40px;
         background: url("/img/menu_01.svg") repeat;
         position: absolute;
-        right: 0;
-        top: 20%;
+        right: 2%;
+        top: 15%;
         text-align: right;
         border: none;
         outline: none;
+        transform: rotate(0deg);
     }
 
     .menuX {
@@ -35,19 +37,95 @@
         height: 40px;
         background: url("/img/menu_02.svg") repeat;
         position: absolute;
-        right: 0;
-        top: 20%;
+        right: 2%;
+        top: 15%;
         text-align: right;
         border: none;
         outline: none;
+        transform: rotate(90deg);
     }
 
     .gnb {
+        position: absolute;
         display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        left: 2%;
+        top: 100%;
+        width: 300px;
+        height: 700px;
+        text-align: start;
+        font-size: 18px;
+    }
+
+    .g1 {
+        position: absolute;
+        top: 1%;
+        left: 50%;
+    }
+
+    .g2 {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        padding-top: 50px;
+    }
+
+    .g3 {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        padding-top: 50px;
+
+    }
+
+    .nav_con {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        border-bottom: 1px solid #bbb;
+        padding-top: 0;
+    }
+
+    .nav_con:nth-child(1) {}
+
+    .nav_con:nth-child(2) {
+        padding-right: 0;
+        padding: 40px 0;
+    }
+
+    .nav_con:nth-child(3) {}
+
+    .nav_con h2 {
+        text-align: center;
+        width: 50%;
+        height: 200px;
+    }
+
+    .nav_con h2>a {
+        padding-top: 50px;
     }
 
     .enb {
+        display: inline-block;
+        position: absolute;
+        top: 750px;
+        left: 2%;
+    }
+
+    .enb span {
         display: none;
+        padding-right: 15px;
+    }
+
+    .mobile_p {
+        display: none;
+        width: 300px;
+        position: absolute;
+        font-size: 14px;
+        color: #bbb;
+        top: 800px;
+        left: -1%;
     }
 
     .videoWrap {
@@ -91,8 +169,176 @@
     .newTab img {
         left: 54.5%;
     }
+
+    /* section2 */
+    .section2 {
+        height: 900px;
+    }
+
+    .View {
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    .ViewWrap {
+        width: 50%;
+    }
+
+    .contentWrap2 h1 {
+        font-size: 24px;
+        top: 30%;
+    }
+
+    .contentWrap2 p {
+        font-size: 14px;
+    }
+
+    .ViewWrap h1 img {
+        width: 20px;
+        height: 20px;
+        transform: translateY(10%);
+    }
+
+    .section3 {
+        height: 50px;
+    }
+
+    .scrollBarWrap {
+        width: 0;
+    }
+
+    .scrollBarWrap>div {
+        display: none;
+    }
+
+    .section3 h1 {
+        font-size: 24px;
+    }
+
+    /* footer */
+    .left .icons:nth-of-type(1) {
+        left: 2%;
+    }
+
+    .left .icons:nth-of-type(2) {
+        left: 5%;
+    }
+
+    .left .icons:nth-of-type(3) {
+        left: 8%;
+    }
 }
+
+
 
 /* 모바일 */
 @media screen and (max-width: 767px) {
+
+    .menu {
+        right: 6%;
+    }
+
+    .menuX {
+        right: 6%;
+    }
+
+    /* section1 */
+    .section1 {
+        height: 600px;
+        padding: 50px 0;
+    }
+
+    .contentWrap {
+        display: block;
+        height: 500px;
+    }
+
+    .contents1 {
+        margin: 30px auto;
+        height: 80px;
+    }
+
+    .newTab img {
+        left: 56%
+    }
+
+    /* footer */
+    footer {
+        height: 850px;
+    }
+
+    .left {
+        display: block;
+        width: 100%;
+    }
+
+    .left>img {
+        top: 2%;
+        left: 5%;
+    }
+
+    .left .icons:nth-of-type(1) {
+        top: 10%;
+        left: 5%;
+
+    }
+
+    .left .icons:nth-of-type(2) {
+        top: 10%;
+        left: 12%;
+    }
+
+    .left .icons:nth-of-type(3) {
+        top: 10%;
+        left: 19%;
+    }
+
+    .right {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+
+    .right ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .topEnd {
+        width: 75px;
+        padding-right: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .contentEnd {
+        display: flex;
+        padding-top: 20px;
+        height: 90%;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .contentEnd:nth-of-type(2) {
+        height: 40%;
+        padding-top: 40px;
+    }
+
+    .contentEnd:nth-of-type(3) {
+        height: 120px;
+        margin-top: 3%;
+    }
+
+    .left p:nth-of-type(1) {
+        bottom: 10%;
+        left: 5%;
+    }
+
+    .left p:nth-of-type(2) {
+        bottom: 10%;
+        left: 20%;
+    }
 }

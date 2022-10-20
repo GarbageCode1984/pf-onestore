@@ -160,13 +160,13 @@
 
 .sliderWrap a .con:hover {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
-    animation: rotate_img 0.8s ease-in-out 1;
+    animation: rotate_img 0.1s ease-in 3;
     transform-origin: 50% 50%;
 }
 
 @keyframes rotate_img {
     100% {
-        transform: rotate(360deg);
+        transform: rotate(5deg);
     }
 }
 

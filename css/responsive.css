@@ -9,6 +9,10 @@
         position: fixed;
     }
 
+    .top:hover {
+        height: 70px;
+    }
+
     .menuUp {
         height: 70px !important;
     }
